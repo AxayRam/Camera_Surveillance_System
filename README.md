@@ -1,6 +1,6 @@
 # Camera_Surveillance_System
 📷 Camera Surveillance System
-The Camera Surveillance System is an intelligent security solution designed to monitor environments in real-time using computer vision techniques. Leveraging Python and OpenCV, this system offers features such as motion detection, real-time video streaming, and automated alerts, enhancing safety for homes, offices, and other premises.​
+The Camera Surveillance System is an intelligent security solution designed to monitor environments in real-time using computer vision techniques. this system offers features such as motion detection, real-time video streaming, and automated alerts, enhancing safety for homes, offices, and other premises.​
 
 🔍 Key Features
 
