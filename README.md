@@ -14,4 +14,3 @@ Safe & Sound
 WIRED
 +1
 
-Data Logging: Records events for future review and analysis
