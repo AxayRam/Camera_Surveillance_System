@@ -6,7 +6,9 @@ The Camera Surveillance System is an intelligent security solution designed to m
 
 *Motion Detection: Identifies and responds to movement within the camera's field of view.​
 Senstar
+
 *Real-Time Video Streaming: Provides live footage for immediate monitoring.​
+
 *Automated Alerts: Sends notifications upon detecting suspicious activities.​
 
 
