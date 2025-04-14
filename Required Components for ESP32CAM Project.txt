@@ -1,0 +1,27 @@
+Required Components for ESP32CAM Project 
+
+•	ESP32 CAM 
+
+•	PIR sensor/ IR sensor 
+
+•	DHT11 Sensor 
+
+•	220-ohm 0.25watt Resistors – 2 no 
+
+•	1k 0.25watt Resistors – 2 no 
+
+•	1N4007 Diode 
+
+•	BC547 NPN Transistor – 2 no 
+
+•	LED 5mm – 2no 
+
+•	5V SPDT Relay 
+
+•	2-pin Terminal connectors (2 no) 
+
+•	SPDT slide switch 
+
+•	AC to DC converter 5M05 5V 
+
+•	FTDI232 TTL converter. 
