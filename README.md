@@ -1,68 +1,143 @@
-# Camera_Surveillance_System
+Camera Surveillance System
+IoT-Based Motion Sensor Camera Surveillance System
+With Telegram Control using ESP32-CAM
+Welcome to our innovative surveillance system project! This system offers real-time security, smart automation, and remote access using cost-effective components including ESP32-CAM, PIR sensor, and Telegram Bot API.
 
-📷 IoT-Based Motion Sensor Camera Surveillance System
-🔒 With Telegram Control using ESP32-CAM
-Welcome to our innovative surveillance system project! This system is designed to offer real-time security, smart automation, and remote access, all using cost-effective components like the ESP32-CAM, PIR sensor, and Telegram Bot API.
+Project Overview
+In today's world, the demand for intelligent and cost-effective surveillance systems is growing rapidly. This project demonstrates a complete solution that:
 
+Detects motion using PIR sensor
 
-🧠 About the Project
-In today’s world, the demand for intelligent and low-cost surveillance systems is growing. This project showcases a complete solution that:
+Captures images via ESP32-CAM
 
-✅ Detects motion using PIR sensor
-✅ Captures images via ESP32-CAM
-✅ Sends alerts & photos to Telegram instantly
-✅ Monitors temperature and humidity with DHT11
-✅ Controls devices like lights using a relay module
+Sends alerts and photos to Telegram instantly
 
-The system is built with embedded IoT technology and supports two-way communication via Telegram, eliminating the need for traditional CCTV monitors.
+Monitors temperature and humidity with DHT11 sensor
 
+Controls devices like lights using relay module
 
+The system is built with embedded IoT technology and supports two-way communication via Telegram, eliminating the need for traditional CCTV monitoring systems.
 
-🔧 Hardware Used
-📸 ESP32-CAM (with OV2640 Camera)
-👀 PIR Sensor (Motion Detection)
-🌡️ DHT11 (Temp & Humidity)
-💡 Relay Module (for controlling lights/gate)
-💻 FTDI Programmer (for uploading code)
+Hardware Components
+ESP32-CAM (with OV2640 Camera)
 
+PIR Sensor (Motion Detection)
 
+DHT11 Sensor (Temperature & Humidity)
 
-💻 Software & Tools
+Relay Module (for controlling lights/gate)
+
+FTDI Programmer (for uploading code)
+
+Software & Technologies
 Arduino IDE
+
 Telegram Bot API
-Libraries: WiFi.h, esp_camera.h, UniversalTelegramBot.h, ArduinoJson, DHT.h
 
-📐 System Architecture
-The ESP32-CAM is at the heart of the system, with components connected to GPIO pins for sensing, controlling, and communicating. The Telegram Bot acts as a remote control interface and notification platform.
+Key Libraries:
 
-📸 Features
-🔔 Motion-triggered image capture
-🖼️ Instant image delivery via Telegram
-🌦️ Real-time environmental monitoring
-💡 Remote light control
-📡 WiFi-connected system for full automation
+WiFi.h
 
-🧪 Experimental Results
-✔️ Successfully captured & delivered images
-✔️ Accurate motion detection with minimal false triggers
-✔️ Real-time interaction via Telegram commands
-✔️ Stable system performance under varying conditions
+esp_camera.h
 
-📚 Read Our Research Paper
-You can check out our full research paper here for detailed system design, analysis, and future scope.
-🤝 Authors
+UniversalTelegramBot.h
+
+ArduinoJson
+
+DHT.h
+
+System Architecture
+The ESP32-CAM serves as the core processing unit, with peripheral components connected to GPIO pins for sensing, control, and communication. The Telegram Bot functions as both remote control interface and notification platform, enabling seamless two-way interaction.
+
+Key Features
+Motion-triggered image capture
+
+Instant image delivery via Telegram
+
+Real-time environmental monitoring
+
+Remote light control capability
+
+WiFi-connected autonomous operation
+
+Cost-effective surveillance solution
+
+Experimental Results
+Successfully captured and delivered images with minimal latency
+
+Accurate motion detection with minimal false triggers
+
+Real-time command interaction via Telegram platform
+
+Stable system performance under varying environmental conditions
+
+Reliable remote access and control functionality
+
+Research Documentation
+For detailed system design, implementation analysis, performance metrics, and future scope, please refer to our comprehensive research paper included in this repository.
+
+Development Team
 Axay Ram – axay19392@gmail.com
 Anurag Purohit – er.apurohit@gmail.com
-B.E. Students – Vishwakarma Government Engineering College, Ahmedabad
 
-🧠 Future Scope
-📹 Live video streaming
-☁️ Cloud storage integration
-🧠 AI-powered threat detection
+Bachelor of Engineering Students
+Vishwakarma Government Engineering College, Ahmedabad
 
-📬 Let's Connect!
-If this project inspired you, feel free to fork, star ⭐, or reach out to us. We'd love to hear your feedback or ideas for improvement!
-#IoT #ESP32CAM #SurveillanceSystem #SmartSecurity #TelegramBot #EmbeddedSystems
+Future Enhancements
+Live video streaming capability
 
+Cloud storage integration for archival
 
+AI-powered threat detection algorithms
 
+Multi-camera system integration
+
+Advanced notification systems
+
+Power optimization features
+
+Technical Specifications
+Microcontroller: ESP32-CAM
+
+Image Sensor: OV2640 (2MP)
+
+Connectivity: WiFi 802.11 b/g/n
+
+Motion Detection: PIR Sensor
+
+Environmental Sensing: DHT11
+
+Control Interface: Relay Module
+
+Communication Protocol: Telegram Bot API
+
+Installation & Setup
+Clone this repository
+
+Install required Arduino libraries
+
+Configure WiFi credentials in the code
+
+Set up Telegram Bot and obtain API token
+
+Upload code to ESP32-CAM using FTDI programmer
+
+Assemble hardware components as per circuit diagram
+
+Test system functionality
+
+Applications
+Home security systems
+
+Office surveillance
+
+Industrial monitoring
+
+Remote property management
+
+Smart city infrastructure
+
+Educational institution security
+
+Connectivity
+For technical discussions, collaboration opportunities, or project feedback, please feel free to connect with the development team.
