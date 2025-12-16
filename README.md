@@ -102,6 +102,6 @@ If this project inspired you, feel free to fork the repository, star it, or shar
 
 ---
 
-## 🔖 Tags
+## 
 
 #IoT #ESP32CAM #SurveillanceSystem #SmartSecurity #TelegramBot #EmbeddedSystems
